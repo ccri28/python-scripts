@@ -1,6 +1,6 @@
 import urllib.request as urllib2
 
-url = "http://www.cristianfaciano.it"
+url = "http://www.google.it"
 
 risposta_server = urllib2.urlopen(url)
 dati_server = risposta_server.read()
